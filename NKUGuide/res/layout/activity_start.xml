@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circle="http://schemas.android.com/apk/res/uguide.nankai"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="uguide.nankai.Start" >
+
+    <uguide.nankai.view.CircleLayout
+        android:id="@+id/_cl_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/tv_navi"
+        android:layout_gravity="center_horizontal"
+        circle:firstChildPosition="South"
+        circle:isRotating="true"
+        circle:rotateToCenter="true" >
+
+        <uguide.nankai.view.CircleImageView
+            android:id="@+id/_civ_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/entry_location" />
+
+        <uguide.nankai.view.CircleImageView
+            android:id="@+id/_civ_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/entry_about" />
+
+        <uguide.nankai.view.CircleImageView
+            android:id="@+id/_civ_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/entry_service" />
+
+        <uguide.nankai.view.CircleImageView
+            android:id="@+id/_civ_scenery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/entry_scenery" />
+
+        <uguide.nankai.view.CircleImageView
+            android:id="@+id/_civ_route"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/entry_route" />
+    </uguide.nankai.view.CircleLayout>
+
+    <TextView
+        android:id="@+id/tv_navi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal"
+        android:text="@string/entry_location"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/main_color" />
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">南开校园导航</string>
+    <string name="entry_location">定位</string>
+    <string name="entry_about">关于我们</string>
+    <string name="entry_service">生活服务</string>
+    <string name="entry_scenery">景点推荐</string>
+    <string name="entry_route">路径规划</string>
+    <string name="version">版本号 V1.0</string>
+    <string name="div">**************************</string>
+    <string name="ourgroup">我们的团队</string>
+    <string name="au_HX">黄鑫</string>
+    <string name="au_WMX">王孟翔</string>
+    <string name="au_WYH">吴裕鸿</string>
+    <string name="au_ZB">张彪</string>
+    <string name="au_ZTL">张天霖</string>
+    <string name="title_activity_scenery_list">SceneryList</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_scenery_list_item">SceneryListItem</string>
+    <string name="gothere">去这里</string>
+    <string name="title_activity_service_navi">ServiceNavi</string>
+    <string name="title_activity_route_page">RoutePage</string>
+    <string name="title_activity_route_page_detail">RoutePageDetail</string>
+    <string name="title_activity_location">Location</string>
+    <string name="mode_putong">普通</string>
+    <string name="mode_gensui">跟随</string>
+    <string name="mode_luopan">罗盘</string>
+    <string name="map_zhengchang">正常图</string>
+    <string name="map_weixing">卫星图</string>
+    <string name="map_traffic">交通图</string>
+    <string name="map_heat">热力图</string>
+    
+</resources>
